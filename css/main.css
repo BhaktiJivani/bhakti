@@ -1,0 +1,131 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-style: 'normal';
+    font-size:18px;
+    line-height:32px;
+    font-weight:300;
+    letter-spacing:0.04em;
+}
+.home1 {padding-top:8px;padding-bottom:80px; width: auto; background-color: #1AB2AB;}
+.about{padding-top:5px;width: auto; background-color:white;}
+.skills{padding-top:5px; padding-right:45px;width: auto;  background-color:white;}
+.experience{padding-top:5px; padding-right:45px;width: auto;  background-color:white;}
+
+#myNavbar{
+    border:none;
+    text-align: center !important;
+    height: 40px;
+    background-color: white !important;
+}
+@media (min-width:1024px) { 
+	.navbar > .container 
+    { text-align: center;}
+	.collapse.navbar-collapse {
+        float: none;
+	    display: inline-block!important;
+	    width: auto;
+	    clear: none;
+        background-color: white;   
+	}
+}
+.collapse.navbar-collapse {
+    height: 500px;   
+}
+.navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color:  #998675 !important;      
+    background-color: white !important;
+}
+.navbar-nav  li{
+    padding-right:10px;
+    margin:0px; 
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > a:hover ,
+.navbar-default .navbar-nav > a:focus ,
+.navbar-default .navbar-nav > a:active {
+    color:  #1AB2AB !important;
+    background-color: white !important;
+   }
+.img-circle{
+    margin-top:10px;
+}
+.full_name{
+    color:white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color:white !important;
+    color: #1AB2AB  !important; 
+    border: 2px solid #1AB2AB !important;
+    margin-top:10px;
+}
+.title1{
+      color: white  !important; 
+}
+.title2{
+      color: white  !important; 
+}
+.divider {width: 100px;
+    height: 2px;
+    margin: 8px auto;
+}
+.aboutdivider{
+     background: #998675;
+}
+.heading_me{
+    color:#998675;
+}
+
+.jumbotron .title_sentence{
+    margin-bottom:60px;
+    text-align: center;
+}
+.info{
+    font-weight: 400px;
+     line-height:80px;
+}
+.contact-email {
+    display: inline-block;
+    font-size: 25px;
+    height: auto;
+    margin: 30px 0;
+    text-transform: lowercase;
+    color: white;
+    width: 370px;
+    height: 60px;
+    background-color: #E23F26;
+    text-align: center;
+    padding-top:20px;
+}
+a:hover,a:visited,a:focus,a:active{
+    color: white;
+   text-decoration: none;
+}
+.contact_1{
+    margin-top:15px;
+    color: #998675;
+}
+.circlelink{
+    width: 75px;
+    height: 75px;
+    background-color: #E23F26;
+    color:white;
+    border-radius: 50%;
+    padding-top:20px;
+    padding-left:5px;
+    font-size: 2.0em;
+}
+.sociallink{
+    text-decoration: none;
+    float:left;
+    list-style: none;
+    padding: 5px;
+}
+.social-media{
+    width: 400px; 
+    margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+
+<!-- index.html -->
+    <!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/skills.css"/>
+        <link rel="stylesheet" href="css/timeline.css"/>
+        <link rel="stylesheet" href="css/about.css"/>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+        
+        <title>Portfolio</title>
+    </head>
+    <body ng-controller="mainController" >
+        <header>
+            <nav id="myNavbar" class="navbar navbar-default  navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-header ">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" ng-init="navCollapsed = true" >
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse " id="navbarCollapse" ng-class="!navCollapsed && 'in'"  ng-click="navCollapsed = !navCollapsed ">
+                            <div>
+                                <ul class="nav navbar-nav " bs-active-link ng-click="navCollapsed = !navCollapsed">
+                                    <li class="linkhome" ><a href="#/">Home</a></li>
+                                    <li class="linkabout"><a href="#/about" >About</a></li>
+                                    <li class="linkskills"><a href="#/skills" >Skills</a></li>
+                                    <li class="linkexperience"><a class="" href="#/experience" >Experience</a></li>
+                                    <li class="listItem"><a  class="linkcontact" href="#/contact" >Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+        <div class="ng-view"></div>
+    </div>
+    <script src= "https://code.angularjs.org/1.5.0-rc.1/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0-rc.1/angular-resource.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>  
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0-rc.2/angular-route.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/* Import the Google Font 'Lato' */
+.heading{
+    color: #44B1CE;
+}
+
+.codeicon{
+    width:145px;
+    height:145px;
+    background: #E23F26;
+    padding: 6px;
+    border-radius: 100%;
+    color: white;
+    text-align:center;
+    margin: 10px;
+}
+.designicon{
+    width:145px;
+    height:145px;
+    background: #1AB2AB;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    text-align:center;
+    margin: 4px;
+}
+.maintenanceicon{
+     width:145px;
+    height:145px;
+    background:#C8C02E;
+    padding: 7px;
+    border-radius: 100%;
+    color: white;
+    text-align:center;
+    margin: 4px;
+}
+.progress {
+    position: relative;
+	height: 30px;
+    left: 5px;   
+}
+.skillbar1 {
+     background-color: #E23F26; 
+}
+.skillbar3{
+    background-color: #C8C02E;
+}
+.skillbar2{
+     background-color: #1AB2AB; 
+}
+
+.heading{
+    color: #998675;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 100;
+	padding: 0px 30px 0px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 100;
+	padding-right: 5px;
+}
